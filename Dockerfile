@@ -29,7 +29,7 @@ RUN poetry config virtualenvs.in-project true \
 COPY --chown=mediaflow_proxy:mediaflow_proxy . /mediaflow_proxy
 
 # --- Runtime proxy config (dapat diaktifkan kalau mau hardcode proxy) ---
-ENV PROXY_URL="http://efhjfxos:fqzez23px4o5@45.39.73.12:5427"
+ENV PROXY_URL="http://efhjfxos:fqzez23px4o5@82.29.223.71:7885"
 ENV ALL_PROXY=true
 
 EXPOSE 8080
